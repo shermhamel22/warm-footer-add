@@ -15,7 +15,7 @@ const HeroSection = () => {
     <section className="relative min-h-[700px] lg:min-h-[800px]">
       {/* Background */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="" width={1920} height={1080} className="w-full h-full object-cover" />
+        <img src={heroBg} alt="Professional house painting services in Vero Beach Florida" width={1920} height={1080} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-hero-dark/75" />
       </div>
 
