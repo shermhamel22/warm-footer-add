@@ -83,7 +83,7 @@ const ServiceAreasSection = () => {
               {areas.map((area) => (
                 <div key={area} className="flex items-center gap-2">
                   <MapPin className="w-3.5 h-3.5 text-destructive flex-shrink-0" />
-                  <a href="#" className="text-foreground text-sm hover:text-primary transition-colors font-body">
+                  <a href="#" className="text-primary-foreground/80 text-sm hover:text-accent transition-colors font-body">
                     {area}
                   </a>
                 </div>
