@@ -41,7 +41,7 @@ const ReviewsSection = () => {
     <section className="relative overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="" className="w-full h-full object-cover" />
+        <img src={heroBg} alt="Painting services background" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-hero-dark/80" />
       </div>
 
