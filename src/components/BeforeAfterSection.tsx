@@ -7,7 +7,7 @@ import before3 from "@/assets/before-3.jpg";
 import after3 from "@/assets/after-3.jpg";
 
 const transformations = [
-  { before: before1, after: after1, label: "Exterior Painting" },
+  { before: before1, after: after1, label: "Commercial Exterior" },
   { before: before2, after: after2, label: "Living Room" },
   { before: before3, after: after3, label: "Bedroom" },
 ];
