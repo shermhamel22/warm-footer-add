@@ -23,7 +23,7 @@ const WhyChooseUsSection = () => {
             </div>
 
             <h2 className="font-heading font-black text-primary-foreground text-[32px] lg:text-[42px] leading-tight mb-5 uppercase">
-              QUALITY PLUMBING WITH TOP TIER PROFESSIONALS
+              QUALITY PAINTING WITH TOP TIER PROFESSIONALS
             </h2>
 
             <p className="text-primary-foreground/70 text-[15px] leading-relaxed mb-8 font-body max-w-[500px]">
