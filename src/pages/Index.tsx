@@ -1,27 +1,31 @@
+import { lazy, Suspense } from "react";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import ServicesSection from "@/components/ServicesSection";
-import BeforeAfterSection from "@/components/BeforeAfterSection";
-import ReviewsSection from "@/components/ReviewsSection";
-import ServiceAreasSection from "@/components/ServiceAreasSection";
-import WhyChooseUsSection from "@/components/WhyChooseUsSection";
-import CTABanner from "@/components/CTABanner";
-import FAQSection from "@/components/FAQSection";
-import Footer from "@/components/Footer";
+
+const ServicesSection = lazy(() => import("@/components/ServicesSection"));
+const WhyChooseUsSection = lazy(() => import("@/components/WhyChooseUsSection"));
+const BeforeAfterSection = lazy(() => import("@/components/BeforeAfterSection"));
+const ReviewsSection = lazy(() => import("@/components/ReviewsSection"));
+const ServiceAreasSection = lazy(() => import("@/components/ServiceAreasSection"));
+const FAQSection = lazy(() => import("@/components/FAQSection"));
+const CTABanner = lazy(() => import("@/components/CTABanner"));
+const Footer = lazy(() => import("@/components/Footer"));
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
       <HeroSection />
-      <ServicesSection />
-      <WhyChooseUsSection />
-      <BeforeAfterSection />
-      <ReviewsSection />
-      <ServiceAreasSection />
-      <FAQSection />
-      <CTABanner />
-      <Footer />
+      <Suspense fallback={<div className="min-h-[200px]" />}>
+        <ServicesSection />
+        <WhyChooseUsSection />
+        <BeforeAfterSection />
+        <ReviewsSection />
+        <ServiceAreasSection />
+        <FAQSection />
+        <CTABanner />
+        <Footer />
+      </Suspense>
     </div>
   );
 };
