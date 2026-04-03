@@ -38,11 +38,11 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Column 1 - Logo & Social */}
             <div className="flex flex-col items-start">
-              <img src={logo} alt="Vero Beach Painting" className="h-16 mb-2" />
-              <p className="text-footer-foreground text-sm italic mb-6 font-body">
+              <img src={logo} alt="Vero Beach Painting" className="h-40 mb-4" />
+              <p className="text-footer-foreground text-sm italic mb-6 font-body mt-2">
                 Quality painting, every time.
               </p>
-              <div className="flex gap-3">
+              <div className="flex gap-3 mt-1">
                 <a
                   href="https://facebook.com"
                   target="_blank"
