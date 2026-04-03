@@ -47,6 +47,7 @@ const Footer = () => {
                   href="https://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Visit our Facebook page"
                   className="w-10 h-10 rounded-full bg-footer-foreground/20 flex items-center justify-center hover:bg-footer-accent transition-colors"
                 >
                   <Facebook className="w-5 h-5 text-footer-heading" />
@@ -55,6 +56,7 @@ const Footer = () => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Visit our Instagram profile"
                   className="w-10 h-10 rounded-full bg-footer-foreground/20 flex items-center justify-center hover:bg-footer-accent transition-colors"
                 >
                   <Instagram className="w-5 h-5 text-footer-heading" />
@@ -63,6 +65,7 @@ const Footer = () => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Visit our YouTube channel"
                   className="w-10 h-10 rounded-full bg-footer-foreground/20 flex items-center justify-center hover:bg-footer-accent transition-colors"
                 >
                   <Youtube className="w-5 h-5 text-footer-heading" />
