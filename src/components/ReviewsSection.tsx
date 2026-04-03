@@ -179,7 +179,7 @@ const ReviewsSection = () => {
       {/* Bottom swirly S-curve wave */}
       <div className="relative">
         <svg viewBox="0 0 1440 160" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full block" preserveAspectRatio="none" style={{ height: "120px" }}>
-          <path d="M0 120C60 140 200 70 480 100C760 130 820 60 1100 50C1380 40 1440 120 1440 120V160H0V120Z" fill="hsl(0 0% 0%)" />
+          <path d="M0 120C60 140 200 70 480 100C760 130 820 60 1100 50C1380 40 1440 120 1440 120V160H0V120Z" fill="hsl(0 0% 8%)" />
         </svg>
       </div>
     </section>
