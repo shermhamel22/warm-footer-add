@@ -69,7 +69,7 @@ const HeroSection = () => {
           {/* Right Side - Quote Form */}
           <div className="bg-destructive rounded-lg p-6 lg:p-8 w-full max-w-[540px] lg:ml-auto" id="quote">
             <div className="flex justify-center -mb-8">
-              <img src={logo} alt="Elite Painting Solutions" width={330} height={330} className="object-contain -mt-24" />
+              <img src={logo} alt="Elite Painting Solutions" width={330} height={330} className="object-contain -mt-24" fetchPriority="high" />
             </div>
             <h2 className="font-heading font-black text-destructive-foreground text-[36px] lg:text-[44px] text-center uppercase mb-5 leading-tight whitespace-nowrap -mt-16 relative z-10">
               GET A FREE QUOTE
@@ -115,13 +115,14 @@ const HeroSection = () => {
               <div className="flex items-start gap-3">
                 <input
                   type="checkbox"
+                  id="agree-checkbox"
                   className="mt-1 w-4 h-4"
                   checked={formData.agree}
                   onChange={(e) => setFormData({ ...formData, agree: e.target.checked })}
                 />
-                <span className="text-destructive-foreground text-xs leading-relaxed font-heading font-semibold">
+                <label htmlFor="agree-checkbox" className="text-destructive-foreground text-xs leading-relaxed font-heading font-semibold">
                   I agree to <a href="#" className="underline text-accent">terms & conditions</a> provided by the company. By providing my phone number, I agree to receive text messages from the business.
-                </span>
+                </label>
               </div>
               <button
                 type="submit"

@@ -128,6 +128,7 @@ const ReviewsSection = () => {
             <button
               onClick={() => goToPage(Math.max(0, page - 1))}
               disabled={page === 0 || isAnimating}
+              aria-label="Previous reviews page"
               className="text-primary-foreground hover:text-accent disabled:opacity-30 transition-colors"
             >
               <ChevronLeft className="w-6 h-6" />
@@ -148,6 +149,7 @@ const ReviewsSection = () => {
             <button
               onClick={() => goToPage(Math.min(totalPages - 1, page + 1))}
               disabled={page === totalPages - 1 || isAnimating}
+              aria-label="Next reviews page"
               className="text-primary-foreground hover:text-accent disabled:opacity-30 transition-colors"
             >
               <ChevronRight className="w-6 h-6" />

@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Column 1 - Logo & Social */}
             <div className="flex flex-col items-start">
-              <img src={logo} alt="Vero Beach Painting" className="h-40 mb-4" />
+              <img src={logo} alt="Vero Beach Painting" className="h-40 mb-4" width={160} height={160} />
               <p className="text-footer-foreground text-sm italic mb-6 font-body mt-2">
                 Quality painting, every time.
               </p>
@@ -47,6 +47,7 @@ const Footer = () => {
                   href="https://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Visit our Facebook page"
                   className="w-10 h-10 rounded-full bg-footer-foreground/20 flex items-center justify-center hover:bg-footer-accent transition-colors"
                 >
                   <Facebook className="w-5 h-5 text-footer-heading" />
@@ -55,6 +56,7 @@ const Footer = () => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Visit our Instagram profile"
                   className="w-10 h-10 rounded-full bg-footer-foreground/20 flex items-center justify-center hover:bg-footer-accent transition-colors"
                 >
                   <Instagram className="w-5 h-5 text-footer-heading" />
@@ -63,6 +65,7 @@ const Footer = () => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Visit our YouTube channel"
                   className="w-10 h-10 rounded-full bg-footer-foreground/20 flex items-center justify-center hover:bg-footer-accent transition-colors"
                 >
                   <Youtube className="w-5 h-5 text-footer-heading" />

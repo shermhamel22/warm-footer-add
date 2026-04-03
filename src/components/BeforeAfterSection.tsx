@@ -134,7 +134,7 @@ const BeforeAfterCard = ({
           Retouched
         </span>
       </div>
-      <p className="text-muted-foreground text-sm font-heading font-bold">{label}</p>
+      <p className="text-primary-foreground/70 text-sm font-heading font-bold">{label}</p>
       <button
         onClick={handleTransform}
         className="bg-primary-foreground text-hero-dark font-heading font-black text-[14px] uppercase tracking-wider px-8 py-3 rounded-lg hover:bg-primary-foreground/90 transition-colors flex items-center gap-2"
