@@ -54,6 +54,8 @@ const WhyChooseUsSection = () => {
                 src={whyChooseImg}
                 alt="Professional painter at work"
                 loading="lazy"
+                width={443}
+                height={590}
                 className="w-full h-full object-cover"
               />
             </div>
