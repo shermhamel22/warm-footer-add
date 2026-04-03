@@ -76,7 +76,7 @@ const ServiceAreasSection = () => {
 
           {/* Areas Served */}
           <div className="flex-1">
-            <h3 className="font-heading font-black text-foreground text-[28px] uppercase mb-6">
+            <h3 className="font-heading font-black text-primary-foreground text-[28px] uppercase mb-6">
               AREAS WE SERVE
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-2.5">
