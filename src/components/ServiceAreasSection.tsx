@@ -93,7 +93,7 @@ const ServiceAreasSection = () => {
         </div>
 
         {/* Interactive Map - Vero Beach, FL */}
-        <div className="mt-12 rounded-lg overflow-hidden border border-border h-[350px]">
+        <div className="mt-12 rounded-lg overflow-hidden border border-primary-foreground/20 h-[350px]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113987.43213985595!2d-80.47741045!3d27.6386434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d901988b4e9b2d%3A0x5e6124ef28a8b868!2sVero%20Beach%2C%20FL!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
             width="100%"
