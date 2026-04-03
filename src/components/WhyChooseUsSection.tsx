@@ -1,5 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
-import whyChooseImg from "@/assets/why-choose-us.png";
+import whyChooseImg from "@/assets/why-choose-us.jpg";
 
 const benefits = [
   "Personalized Service",
