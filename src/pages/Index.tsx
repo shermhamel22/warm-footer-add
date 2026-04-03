@@ -21,6 +21,7 @@ const Index = () => {
       <ServiceAreasSection />
       <FAQSection />
       <CTABanner />
+      </main>
       <Footer />
     </div>
   );

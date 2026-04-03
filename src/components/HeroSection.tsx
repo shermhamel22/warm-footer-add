@@ -115,13 +115,14 @@ const HeroSection = () => {
               <div className="flex items-start gap-3">
                 <input
                   type="checkbox"
+                  id="agree-checkbox"
                   className="mt-1 w-4 h-4"
                   checked={formData.agree}
                   onChange={(e) => setFormData({ ...formData, agree: e.target.checked })}
                 />
-                <span className="text-destructive-foreground text-xs leading-relaxed font-heading font-semibold">
+                <label htmlFor="agree-checkbox" className="text-destructive-foreground text-xs leading-relaxed font-heading font-semibold">
                   I agree to <a href="#" className="underline text-accent">terms & conditions</a> provided by the company. By providing my phone number, I agree to receive text messages from the business.
-                </span>
+                </label>
               </div>
               <button
                 type="submit"
