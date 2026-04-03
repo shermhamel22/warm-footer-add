@@ -37,7 +37,7 @@ const counties = [
 
 const ServiceAreasSection = () => {
   return (
-    <section className="py-16 lg:py-24 bg-background" id="areas">
+    <section className="py-16 lg:py-24 bg-hero-dark" id="areas">
       <div className="max-w-[1200px] mx-auto px-4 lg:px-8">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Cities */}
