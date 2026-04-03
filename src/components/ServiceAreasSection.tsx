@@ -37,7 +37,7 @@ const counties = [
 
 const ServiceAreasSection = () => {
   return (
-    <section className="py-16 lg:py-24 bg-background" id="areas">
+    <section className="py-16 lg:py-24 bg-hero-dark" id="areas">
       <div className="max-w-[1200px] mx-auto px-4 lg:px-8">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Cities */}
@@ -76,14 +76,14 @@ const ServiceAreasSection = () => {
 
           {/* Areas Served */}
           <div className="flex-1">
-            <h3 className="font-heading font-black text-foreground text-[28px] uppercase mb-6">
+            <h3 className="font-heading font-black text-primary-foreground text-[28px] uppercase mb-6">
               AREAS WE SERVE
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-2.5">
               {areas.map((area) => (
                 <div key={area} className="flex items-center gap-2">
                   <MapPin className="w-3.5 h-3.5 text-destructive flex-shrink-0" />
-                  <a href="#" className="text-foreground text-sm hover:text-primary transition-colors font-body">
+                  <a href="#" className="text-primary-foreground/80 text-sm hover:text-accent transition-colors font-body">
                     {area}
                   </a>
                 </div>
@@ -93,7 +93,7 @@ const ServiceAreasSection = () => {
         </div>
 
         {/* Interactive Map - Vero Beach, FL */}
-        <div className="mt-12 rounded-lg overflow-hidden border border-border h-[350px]">
+        <div className="mt-12 rounded-lg overflow-hidden border border-primary-foreground/20 h-[350px]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113987.43213985595!2d-80.47741045!3d27.6386434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d901988b4e9b2d%3A0x5e6124ef28a8b868!2sVero%20Beach%2C%20FL!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
             width="100%"
