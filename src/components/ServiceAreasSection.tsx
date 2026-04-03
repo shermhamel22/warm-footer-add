@@ -26,6 +26,18 @@ const areas = [
   "Four Corners",
   "Fort Pierce",
   "Port St. Lucie",
+  "Example #7",
+  "Example #8",
+  "Example #9",
+  "Example #10",
+  "Example #11",
+  "Example #12",
+  "Example #13",
+  "Example #14",
+  "Example #15",
+  "Example #16",
+  "Example #17",
+  "Example #18",
 ];
 
 const counties = [
