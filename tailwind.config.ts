@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['Montserrat', 'sans-serif'],
+        body: ['Montserrat', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +51,27 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        hero: {
+          red: "hsl(var(--hero-red))",
+          blue: "hsl(var(--hero-blue))",
+          yellow: "hsl(var(--hero-yellow))",
+          dark: "hsl(var(--hero-dark))",
+        },
+        nav: {
+          dark: "hsl(var(--nav-dark))",
+        },
+        star: "hsl(var(--star-yellow))",
+        cta: {
+          red: "hsl(var(--cta-red))",
+          "red-hover": "hsl(var(--cta-red-hover))",
+        },
+        footer: {
+          dark: "hsl(var(--footer-dark))",
+          foreground: "hsl(var(--footer-foreground))",
+          heading: "hsl(var(--footer-heading))",
+          accent: "hsl(var(--footer-accent))",
+          "link-hover": "hsl(var(--footer-link-hover))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -65,20 +90,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
