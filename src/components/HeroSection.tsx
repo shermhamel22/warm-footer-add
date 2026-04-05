@@ -27,7 +27,7 @@ const HeroSection = () => {
             <div className="flex items-center gap-2 mb-6">
               <div className="w-3 h-3 rounded-full bg-accent" />
               <span className="text-primary-foreground/80 text-sm font-heading font-bold uppercase tracking-wider">
-                OVER 2K REVIEWS ON
+                4.9 RATING ON
               </span>
               <span className="text-primary-foreground font-heading font-black text-sm">Google</span>
               <div className="flex gap-0.5">
