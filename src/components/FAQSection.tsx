@@ -7,24 +7,24 @@ import {
 
 const faqs = [
   {
-    question: "What Plumbing Services Do You Offer?",
+    question: "What Painting Services Do You Offer?",
     answer:
-      "We offer a full range of plumbing services including leak repairs, drain cleaning, water heater installation, pipe replacement, sewer line repair, fixture installation, and emergency plumbing. Call us today and we'll find the right solution for you!",
+      "We offer a full range of painting services including interior painting, exterior painting, commercial painting, cabinet refinishing, pressure washing, drywall repair, color consultation, and staining & sealing. Call us today for a free quote!",
   },
   {
-    question: "How Quickly Can You Respond To Emergencies?",
+    question: "How Quickly Can You Start My Project?",
     answer:
-      "We understand plumbing emergencies can't wait. Our team is available for same-day service and we strive to respond to emergency calls within the hour in our service areas.",
+      "We typically begin projects within 1-2 weeks of the estimate approval. For urgent projects, we do our best to accommodate faster timelines.",
   },
   {
     question: "Do You Provide Free Estimates?",
     answer:
-      "Yes! We provide free, no-obligation estimates for all plumbing jobs. Contact us to schedule an appointment and we'll assess the work needed before any costs are incurred.",
+      "Yes! We provide free, no-obligation estimates for all painting jobs. Contact us to schedule an appointment and we'll assess the work needed before any costs are incurred.",
   },
   {
-    question: "Are Your Plumbers Licensed And Insured?",
+    question: "Are Your Painters Licensed And Insured?",
     answer:
-      "Absolutely. All of our plumbers are fully licensed, insured, and experienced professionals. You can trust that your home is in capable hands.",
+      "Absolutely. All of our painters are fully licensed, insured, and experienced professionals. You can trust that your home is in capable hands.",
   },
 ];
 

@@ -38,7 +38,7 @@ const HeroSection = () => {
             </div>
 
             <h1 className="font-heading font-black text-primary-foreground text-[48px] lg:text-[64px] leading-[1.05] uppercase mb-6">
-              PAINTING SERVICES IN<br />SYDNEY
+              PAINTING SERVICES IN<br />VERO BEACH
             </h1>
 
             <p className="text-primary-foreground/80 text-[16px] leading-relaxed max-w-[500px] mb-8 font-body">
